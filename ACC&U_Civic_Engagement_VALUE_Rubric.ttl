@@ -1,0 +1,245 @@
+@prefix asn: <http://purl.org/ASN/schema/core/> .
+@prefic dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/>
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+<https://imaginaryPlace.org/resources/697807e1-0ddf-4c8f-81fe-12e9935d1633> a asn:Rubric ;
+    dc:title "Civic Engagement VALUE Rubric"@en-US ;
+    dcterms:description "Civic engagement is \"working to make a difference in the civic life of our communities and developing the combination of knowledge, skills, values and motivation to make that difference. It means promoting the quality of life in a community, through both political and non-political processes.\" (Excerpted from Civic Responsibility and Higher Education, edited by Thomas Ehrlich, published by Oryx Press, 2000, Preface, page vi.) In addition, civic engagement encompasses actions wherein individuals participate in activities of personal and public concern that are both individually life enriching and socially beneficial to the community."@en-US ;
+    asn:hasScope "The rubric is intended for institutional-level use in evaluating and discussing student learning, not for grading."@en-US ;
+    asn:hasCriterion <https://imaginaryPlace.org/resources/47af1f8a-ca52-4976-beaa-3dd375ec9125> , 
+        <https://imaginaryPlace.org/resources/a8663ace-07be-4d97-a72f-f440a2d8f797> ,
+        <https://imaginaryPlace.org/resources/3b4811fa-f4d1-4757-89e8-05b9dc2c7a9d> ,
+        <https://imaginaryPlace.org/resources/a6ef4bd3-7929-4244-9fa7-dde526179cb9> ,
+        <https://imaginaryPlace.org/resources/15656494-60ff-4fa7-bce3-7a797fe392ce> ,
+        <https://imaginaryPlace.org/resources/d75e3877-3455-4b21-b1eb-7016893eff10> ;
+    asn:source <https://www.aacu.org/civic-engagement-value-rubric> .
+    
+<https://imaginaryPlace.org/resources/47af1f8a-ca52-4976-beaa-3dd375ec9125> a asn:RubricCriterion ;
+    dc:title "Diversity of Communities and Cultures"@en-US ;
+    asn:sequence "1"^^xsd:integer ;
+    asn:hasLevel <https://imaginaryPlace.org/resources/c3cb38c2-efb5-4681-815f-b20096242898> ,
+        <https://imaginaryPlace.org/resources/4ea6c16a-0675-49a4-8260-4a5975b8f5f2> ,
+        <https://imaginaryPlace.org/resources/202d0ea7-f525-49e3-93cf-f74f11eb94c1> ,
+        <https://imaginaryPlace.org/resources/89ae7d88-ade2-45fa-a41b-c5059aeb7a2b> ;
+    asn:criterionFor <https://imaginaryPlace.org/resources/697807e1-0ddf-4c8f-81fe-12e9935d1633> .
+    
+<https://imaginaryPlace.org/resources/c3cb38c2-efb5-4681-815f-b20096242898> a asn:CriterionLevel ;
+    asn:qualityLabel "Capstone"@en-US ;
+    asn:score "4"^^xsd:integer ;
+    asn:benchmark "Demonstrates evidence of adjustment in own attitudes and beliefs because of working within and learning from diversity of communities and cultures. Promotes others' engagement with diversity."@en-US ;
+    asn:sequence "1"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/47af1f8a-ca52-4976-beaa-3dd375ec9125> .
+
+<https://imaginaryPlace.org/resources/4ea6c16a-0675-49a4-8260-4a5975b8f5f2> a asn:CriterionLevel ;
+    asn:qualityLabel "Milestone"@en-US ;
+    asn:score "3"^^xsd:integer ;
+    asn:benchmark "Reflects on how own attitudes and beliefs are different from those of other cultures and communities. Exhibits curiosity about what can be learned from diversity of communities and cultures."@en-US ;
+    asn:sequence "2"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/47af1f8a-ca52-4976-beaa-3dd375ec9125> .
+
+<https://imaginaryPlace.org/resources/202d0ea7-f525-49e3-93cf-f74f11eb94c1> a asn:CriterionLevel ;
+    asn:qualityLabel "Milestone"@en-US ;
+    asn:score "2"^^xsd:integer ;
+    asn:benchmark "Has awareness that own attitudes and beliefs are different from those of other cultures and communities. Exhibits little curiosity about what can be learned from diversity of communities and cultures."@en-US ;
+    asn:sequence "3"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/47af1f8a-ca52-4976-beaa-3dd375ec9125> .
+
+<https://imaginaryPlace.org/resources/89ae7d88-ade2-45fa-a41b-c5059aeb7a2b> a asn:CriterionLevel ;
+    asn:qualityLabel "Benchmark"@en-US ;
+    asn:score "1"^^xsd:integer ;
+    asn:benchmark "Expresses attitudes and beliefs as an individual, from a one-sided view. Is indifferent or resistant to what can be learned from diversity of communities and cultures."@en-US ;
+    asn:sequence "4"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/47af1f8a-ca52-4976-beaa-3dd375ec9125> .
+ 
+<https://imaginaryPlace.org/resources/a8663ace-07be-4d97-a72f-f440a2d8f797> a asn:RubricCriterion ;
+    dc:title "Analysis of Knowledge"@en-US ;
+    asn:sequence "2"^^xsd:integer ;
+    asn:hasLevel <https://imaginaryPlace.org/resources/a33f19f5-5ff4-4636-8e1e-1860f257ccb9> ,
+        <https://imaginaryPlace.org/resources/c3d57932-cac4-4d4f-9f01-a49be13e612b> ,
+        <https://imaginaryPlace.org/resources/5dd198cd-e0d0-4a1e-94af-1b0e6514dfb6> ,
+        <https://imaginaryPlace.org/resources/113d33a1-dd02-48c5-b64f-d5dff3e3e715> ;
+    asn:criterionFor <https://imaginaryPlace.org/resources/697807e1-0ddf-4c8f-81fe-12e9935d1633> .
+        
+<https://imaginaryPlace.org/resources/a33f19f5-5ff4-4636-8e1e-1860f257ccb9> a asn:CriterionLevel ;
+    asn:qualityLabel "Capstone"@en-US ;
+    asn:score "4"^^xsd:integer ;
+    asn:benchmark "Connects and extends knowledge (facts, theories, etc.) from one's own academic study/ field/ discipline to civic engagement and to one's own participation in civic life, politics, and government."@en-US ;
+    asn:sequence "1"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/a8663ace-07be-4d97-a72f-f440a2d8f797> .
+
+<https://imaginaryPlace.org/resources/c3d57932-cac4-4d4f-9f01-a49be13e612b> a asn:CriterionLevel ;
+    asn:qualityLabel "Milestone"@en-US ;
+    asn:score "3"^^xsd:integer ;
+    asn:benchmark "Analyzes knowledge (facts, theories, etc.) from one's own academic study/ field/ discipline making relevant connections to civic engagement and to one's own participation in civic life, politics, and government."@en-US ;
+    asn:sequence "2"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/a8663ace-07be-4d97-a72f-f440a2d8f797> .
+
+<https://imaginaryPlace.org/resources/5dd198cd-e0d0-4a1e-94af-1b0e6514dfb6> a asn:CriterionLevel ;
+    asn:qualityLabel "Milestone"@en-US ;
+    asn:score "2"^^xsd:integer ;
+    asn:benchmark "Begins to connect knowledge (facts, theories, etc.) from one's own academic study/ field/ discipline to civic engagement and to tone's own participation in civic life, politics, and government."@en-US ;
+    asn:sequence "3"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/a8663ace-07be-4d97-a72f-f440a2d8f797> .
+
+<https://imaginaryPlace.org/resources/113d33a1-dd02-48c5-b64f-d5dff3e3e715> a asn:CriterionLevel ;
+    asn:qualityLabel "Benchmark"@en-US ;
+    asn:score "1"^^xsd:integer ;
+    asn:benchmark "Begins to identify knowledge (facts, theories, etc.) from one's own academic study/ field/ discipline that is relevant to civic engagement and to one's own participation in civic life, politics, and government."@en-US ;
+    asn:sequence "4"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/a8663ace-07be-4d97-a72f-f440a2d8f797> .
+
+<https://imaginaryPlace.org/resources/3b4811fa-f4d1-4757-89e8-05b9dc2c7a9d> a asn:RubricCriterion ;
+    dc:title "Civic Identity and Commitment"@en-US ;
+    asn:sequence "3"^^xsd:integer ;
+    asn:hasLevel <https://imaginaryPlace.org/resources/a9aa6db8-3585-4a19-a2cc-e7202049273e> ,
+        <https://imaginaryPlace.org/resources/0d3651ff-a772-4e52-865a-8042a51a4def> ,
+        <https://imaginaryPlace.org/resources/2aca7350-fcec-40b8-a809-ebcc020e9f5d> ,
+        <https://imaginaryPlace.org/resources/71214292-0f25-4734-ad5b-64e6de207530> ;
+    asn:criterionFor <https://imaginaryPlace.org/resources/697807e1-0ddf-4c8f-81fe-12e9935d1633> .
+        
+<https://imaginaryPlace.org/resources/a9aa6db8-3585-4a19-a2cc-e7202049273e> a asn:CriterionLevel ;
+    asn:qualityLabel "Capstone"@en-US ;
+    asn:score "4"^^xsd:integer ;
+    asn:benchmark "Provides evidence of experience in civicengagement activities and describes what she/ he has learned about her or himself as it relates to a reinforced and clarified sense of civic identity and continued commitment to public action."@en-US ;
+    asn:sequence "1"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/3b4811fa-f4d1-4757-89e8-05b9dc2c7a9d> .
+
+<https://imaginaryPlace.org/resources/0d3651ff-a772-4e52-865a-8042a51a4def> a asn:CriterionLevel ;
+    asn:qualityLabel "Milestone"@en-US ;
+    asn:score "3"^^xsd:integer ;
+    asn:benchmark "Provides evidence of experience in civicengagement activities and describes what she/ he has learned about her or himself as it relates to a growing sense of civic identity and commitment."@en-US ;
+    asn:sequence "2"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/3b4811fa-f4d1-4757-89e8-05b9dc2c7a9d> .
+
+<https://imaginaryPlace.org/resources/2aca7350-fcec-40b8-a809-ebcc020e9f5d> a asn:CriterionLevel ;
+    asn:qualityLabel "Milestone"@en-US ;
+    asn:score "2"^^xsd:integer ;
+    asn:benchmark "Evidence suggests involvement in civicengagement activities is generated from expectations or course requirements rather than from a sense of civic identity."@en-US ;
+    asn:sequence "3"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/3b4811fa-f4d1-4757-89e8-05b9dc2c7a9d> .
+
+<https://imaginaryPlace.org/resources/71214292-0f25-4734-ad5b-64e6de207530> a asn:CriterionLevel ;
+    asn:qualityLabel "Benchmark"@en-US ;
+    asn:score "1"^^xsd:integer ;
+    asn:benchmark "Provides little evidence of her/ his experience in civic-engagement activities and does not connect experiences to civic identity."@en-US ;
+    asn:sequence "4"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/3b4811fa-f4d1-4757-89e8-05b9dc2c7a9d> .
+
+
+<https://imaginaryPlace.org/resources/a6ef4bd3-7929-4244-9fa7-dde526179cb9> a asn:RubricCriterion ;
+    dc:title "Civic Communication"@en-US ;
+    asn:sequence "4"^^xsd:integer ;
+    asn:hasLevel <https://imaginaryPlace.org/resources/43264f7b-e9cc-485c-8844-09a3ff27db7c> ,
+        <https://imaginaryPlace.org/resources/038ab514-6588-424f-b0ff-7f34f3a2e6bf> ,
+        <https://imaginaryPlace.org/resources/855405fd-f2f7-47c8-aa7b-ec7c9f52be4c> ,
+        <https://imaginaryPlace.org/resources/0af0a453-45e2-488f-a5df-6570cfd482d4> ;
+    asn:criterionFor <https://imaginaryPlace.org/resources/697807e1-0ddf-4c8f-81fe-12e9935d1633> .
+        
+<https://imaginaryPlace.org/resources/43264f7b-e9cc-485c-8844-09a3ff27db7c> a asn:CriterionLevel ;
+    asn:qualityLabel "Capstone"@en-US ;
+    asn:score "4"^^xsd:integer ;
+    asn:benchmark "Tailors communication strategies to effectively express, listen, and adapt to others to establish relationships to further civic action"@en-US ;
+    asn:sequence "1"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/a6ef4bd3-7929-4244-9fa7-dde526179cb9> .
+ 
+<https://imaginaryPlace.org/resources/038ab514-6588-424f-b0ff-7f34f3a2e6bf>a asn:CriterionLevel ;
+    asn:qualityLabel "Milestone"@en-US ;
+    asn:score "3"^^xsd:integer ;
+    asn:benchmark "Effectively communicates in civic context, showing ability to do all of the following: express, listen, and adapt ideas and messages based on others' perspectives."@en-US ;
+    asn:sequence "2"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/a6ef4bd3-7929-4244-9fa7-dde526179cb9> . 
+        
+<https://imaginaryPlace.org/resources/855405fd-f2f7-47c8-aa7b-ec7c9f52be4c> a asn:CriterionLevel ;
+    asn:qualityLabel "Milestone"@en-US ;
+    asn:score "2"^^xsd:integer ;
+    asn:benchmark "Communicates in civic context, showing ability to do more than one of the following: express, listen, and adapt ideas and messages based on others' perspectives."@en-US ;
+    asn:sequence "3"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/a6ef4bd3-7929-4244-9fa7-dde526179cb9> .
+       
+<https://imaginaryPlace.org/resources/0af0a453-45e2-488f-a5df-6570cfd482d4> a asn:CriterionLevel ;
+    asn:qualityLabel "Benchmark"@en-US ;
+    asn:score "1"^^xsd:integer ;
+    asn:benchmark "Communicates in civic context, showing ability to do one of the following: express, listen, and adapt ideas and messages based on others' perspectives."@en-US ;
+    asn:sequence "4"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/a6ef4bd3-7929-4244-9fa7-dde526179cb9> . 
+
+<https://imaginaryPlace.org/resources/15656494-60ff-4fa7-bce3-7a797fe392ce> a asn:RubricCriterion ;
+    dc:title "Civic Action and Reflaction"@en-US ;
+    asn:sequence "5"^^xsd:integer ;
+    asn:hasLevel <https://imaginaryPlace.org/resources/6e97a7a8-88eb-43a2-91b0-b409287fe8a5> ,
+        <https://imaginaryPlace.org/resources/42ddfbfc-03a3-4547-a0b4-ab158c75fae7> ,
+        <https://imaginaryPlace.org/resources/a832a24b-7746-4399-8fd7-cd1cb8e8fc29> ,
+        <https://imaginaryPlace.org/resources/4978c44a-3c29-4c5d-915f-b8ca584c6ac2> ;
+    asn:criterionFor <https://imaginaryPlace.org/resources/697807e1-0ddf-4c8f-81fe-12e9935d1633> .
+        
+<https://imaginaryPlace.org/resources/6e97a7a8-88eb-43a2-91b0-b409287fe8a5> a asn:CriterionLevel ;
+    asn:qualityLabel "Capstone"@en-US ;
+    asn:score "4"^^xsd:integer ;
+    asn:benchmark "Demonstrates independent experience and shows initiative in team leadership of complex or multiple civic engagement activities, accompanied by reflective insights or analysis about the aims and accomplishments of one's actions."@en-US ;
+    asn:sequence "1"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/15656494-60ff-4fa7-bce3-7a797fe392ce> .
+   
+<https://imaginaryPlace.org/resources/42ddfbfc-03a3-4547-a0b4-ab158c75fae7> a asn:CriterionLevel ;
+    asn:qualityLabel "Milestone"@en-US ;
+    asn:score "3"^^xsd:integer ;
+    asn:benchmark "Demonstrates independent experience and team leadership of civic action, with reflective insights or analysis about the aims and accomplishments of one's actions."@en-US ;
+    asn:sequence "2"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/15656494-60ff-4fa7-bce3-7a797fe392ce> .
+        
+<https://imaginaryPlace.org/resources/a832a24b-7746-4399-8fd7-cd1cb8e8fc29> a asn:CriterionLevel ;
+    asn:qualityLabel "Milestone"@en-US ;
+    asn:score "2"^^xsd:integer ;
+    asn:benchmark "Has clearly participated in civically focused actions and begins to reflect or describe how these actions may benefit individual(s) or communities."@en-US ;
+    asn:sequence "3"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/15656494-60ff-4fa7-bce3-7a797fe392ce> .
+        
+<https://imaginaryPlace.org/resources/4978c44a-3c29-4c5d-915f-b8ca584c6ac2> a asn:CriterionLevel ;
+    asn:qualityLabel "Benchmark"@en-US ;
+    asn:score "1"^^xsd:integer ;
+    asn:benchmark "Has experimented with some civic activities but shows little internalized understanding of their aims or effects and little commitment to future action."@en-US ;
+    asn:sequence "4"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/15656494-60ff-4fa7-bce3-7a797fe392ce> .
+
+<https://imaginaryPlace.org/resources/d75e3877-3455-4b21-b1eb-7016893eff10> a asn:RubricCriterion ;
+    dc:title "Civic Contextx/Structures"@en-US ;
+    asn:sequence "6"^^xsd:integer ;
+    asn:hasLevel <https://imaginaryPlace.org/resources/4997e572-a937-47b3-a6cc-f85d91f05186> ,
+        <https://imaginaryPlace.org/resources/08de7977-fe96-4d07-8c5c-669a59eeee79> ,
+        <https://imaginaryPlace.org/resources/518a6af7-f18b-441b-bc8e-5adc6af2558a> ,
+        <https://imaginaryPlace.org/resources/5f097be3-3809-4271-9f2e-e38ffa8ccdfc> ;
+    asn:criterionFor <https://imaginaryPlace.org/resources/697807e1-0ddf-4c8f-81fe-12e9935d1633> .
+        
+<https://imaginaryPlace.org/resources/4997e572-a937-47b3-a6cc-f85d91f05186> a asn:CriterionLevel ;
+    asn:qualityLabel "Capstone"@en-US ;
+    asn:score "4"^^xsd:integer ;
+    asn:benchmark "Demonstrates ability and commitment to collaboratively work across and within community contexts and structures to achieve a civic aim."@en-US ;
+    asn:sequence "1"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/d75e3877-3455-4b21-b1eb-7016893eff10> .
+
+<https://imaginaryPlace.org/resources/08de7977-fe96-4d07-8c5c-669a59eeee79> a asn:CriterionLevel ;
+    asn:qualityLabel "Milestone"@en-US ;
+    asn:score "3"^^xsd:integer ;
+    asn:benchmark "Demonstrates ability and commitment to work actively within community contexts and structures to achieve a civic aim."@en-US ;
+    asn:sequence "2"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/d75e3877-3455-4b21-b1eb-7016893eff10> .
+
+<https://imaginaryPlace.org/resources/518a6af7-f18b-441b-bc8e-5adc6af2558a> a asn:CriterionLevel ;
+    asn:qualityLabel "Milestone"@en-US ;
+    asn:score "2"^^xsd:integer ;
+    asn:benchmark "Demonstrates experience identifying intentional ways to participate in civic contexts and structures."@en-US ;
+    asn:sequence "3"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/d75e3877-3455-4b21-b1eb-7016893eff10> .
+
+<https://imaginaryPlace.org/resources/5f097be3-3809-4271-9f2e-e38ffa8ccdfc> a asn:CriterionLevel ;
+    asn:qualityLabel "BEnchmark"@en-US ;
+    asn:score "1"^^xsd:integer ;
+    asn:benchmark "Experiments with civic contexts and structures, tries out a few to see what fits."@en-US ;
+    asn:sequence "4"^^xsd:integer ;
+    asn:levelFor <https://imaginaryPlace.org/resources/d75e3877-3455-4b21-b1eb-7016893eff10> .
+
