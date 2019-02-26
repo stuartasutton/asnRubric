@@ -8,7 +8,7 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 asn:CriterionCategory a rdfs:Class ;
-    rdfs:label "Criterion Category ;
+    rdfs:label "Criterion Category"@en-US ; ;
     rdfs:comment "Resource identifying a category by which Rubric Criterion may be grouped."@en-US .
     
 asn:CriterionLevel a rdfs:Class ;
@@ -34,14 +34,14 @@ asn:benchmark a rdfs:Property ;
 asn:description a rdfs:Property ;
     rdfs:label "Description"@en-US ;
     rdfs:comment "Short description of the resource."@en-US ;
-    rdfs:domain asn:Rubric, asn:Criterion asn:CriterionCategory ;
+    rdfs:domain asn:Rubric, asn:Criterion, asn:CriterionCategory ;
     rdfs:range rdf:langString .
     
 asn:hasCriterion a rdfs:Property ;
     rdfs:label "Has Criterion"@en-US ;
     rdfs:comment "RubricCriterian or CriterionCategory referenced by the Rubric that defining criterion to be met to demonstrate quality in execution in performance of a task or obtaining an objectivetask."@en-US ;
     rdfs:domain asn:Rubric ;
-    rdfs:range asn:RubricCriterion, CriterionCategory ;
+    rdfs:range asn:RubricCriterion, asn:CriterionCategory ;
     vann:usageNote "Both asn:RubricCriterion and CriterionCategory have an asn:sequence property to identify node order; however, json-ld encodings should use @list on the asn:hasCriterion and asn:hasLevel properties to maintain such sequencing."@en-US .
 
 asn:hasLevel a rdfs:Property ;
@@ -100,13 +100,13 @@ asn:source a rdfs:Property ;
     rdfs:label "Source"@en-US ;
     rdfs:comment "The original resource which this resource is based on or derived from."@en-US ;
     rdfs:domain asn:Rubric ;
-    rdfs:range vsd:anyURI .
+    rdfs:range xsd:anyURI .
     
 asn:weight a rdfs:Property ;
     rdfs:label "Weight"@en-US ;
     rdfs:comment "An asserted measurement of the weight, degree, percent, or strength of a recommendation, requirement, or comparison."@en-US ;
     dct:description "A numeric weight assigned to this RubricCriterion, used for scored rubrics."@en-us ;
-    rdfs:domain ceterms:RubricCriterion ;
+    rdfs:domain asn:RubricCriterion ;
     rdfs:range xsd:float .
 
 
