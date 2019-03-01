@@ -10,7 +10,7 @@
 
 <https://imaginaryPlace.org/resources/697807e1-0ddf-4c8f-81fe-12e9935d1633> a asn:Rubric ;
     dc:title "Civic Engagement VALUE Rubric"@en-US ;
-    dcterms:description "Civic engagement is \"working to make a difference in the civic life of our communities and developing the combination of knowledge, skills, values and motivation to make that difference. It means promoting the quality of life in a community, through both political and non-political processes.\" (Excerpted from Civic Responsibility and Higher Education, edited by Thomas Ehrlich, published by Oryx Press, 2000, Preface, page vi.) In addition, civic engagement encompasses actions wherein individuals participate in activities of personal and public concern that are both individually life enriching and socially beneficial to the community."@en-US ;
+    dc:description "Civic engagement is \"working to make a difference in the civic life of our communities and developing the combination of knowledge, skills, values and motivation to make that difference. It means promoting the quality of life in a community, through both political and non-political processes.\" (Excerpted from Civic Responsibility and Higher Education, edited by Thomas Ehrlich, published by Oryx Press, 2000, Preface, page vi.) In addition, civic engagement encompasses actions wherein individuals participate in activities of personal and public concern that are both individually life enriching and socially beneficial to the community."@en-US ;
     asn:hasScope "The rubric is intended for institutional-level use in evaluating and discussing student learning, not for grading."@en-US ;
     asn:hasCriterion <https://imaginaryPlace.org/resources/47af1f8a-ca52-4976-beaa-3dd375ec9125> , 
         <https://imaginaryPlace.org/resources/a8663ace-07be-4d97-a72f-f440a2d8f797> ,
@@ -18,7 +18,7 @@
         <https://imaginaryPlace.org/resources/a6ef4bd3-7929-4244-9fa7-dde526179cb9> ,
         <https://imaginaryPlace.org/resources/15656494-60ff-4fa7-bce3-7a797fe392ce> ,
         <https://imaginaryPlace.org/resources/d75e3877-3455-4b21-b1eb-7016893eff10> ;
-    asn:source <https://www.aacu.org/civic-engagement-value-rubric> .
+    dcterms:source <https://www.aacu.org/civic-engagement-value-rubric> .
     
 <https://imaginaryPlace.org/resources/47af1f8a-ca52-4976-beaa-3dd375ec9125> a asn:RubricCriterion ;
     dc:title "Diversity of Communities and Cultures"@en-US ;
